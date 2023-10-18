@@ -18,6 +18,7 @@ const Navbar = (props) => {
 
   return (
     <div className={styles.navbar}>
+      <p>trois</p>
       <img
         className={styles.logo}
         src="https://naneaahua-hair.com/wp/wp-content/themes/delaunay/assets/image/common/logo_text.svg"
