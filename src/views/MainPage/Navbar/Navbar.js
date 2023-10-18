@@ -10,15 +10,14 @@ const Navbar = (props) => {
   const [id_para, setId_para] = useState(["staff", "access"])
 
   const changeUrl_func = (newUrl) => {
-    console.log(newUrl)
-    window.location.href = newUrl;
+    window.location.href = `NANEA_hair_website${newUrl}`;
 
 
   }
 
   return (
     <div className={styles.navbar}>
-      <p>trois</p>
+      <p>quatre</p>
       <img
         className={styles.logo}
         src="https://naneaahua-hair.com/wp/wp-content/themes/delaunay/assets/image/common/logo_text.svg"
