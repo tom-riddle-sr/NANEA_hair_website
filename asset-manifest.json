@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/NANEA_hair_website/static/css/main.39ac89a5.css",
-    "main.js": "/NANEA_hair_website/static/js/main.b1f3e33a.js",
+    "main.js": "/NANEA_hair_website/static/js/main.b6f35761.js",
     "index.html": "/NANEA_hair_website/index.html",
     "main.39ac89a5.css.map": "/NANEA_hair_website/static/css/main.39ac89a5.css.map",
-    "main.b1f3e33a.js.map": "/NANEA_hair_website/static/js/main.b1f3e33a.js.map"
+    "main.b6f35761.js.map": "/NANEA_hair_website/static/js/main.b6f35761.js.map"
   },
   "entrypoints": [
     "static/css/main.39ac89a5.css",
-    "static/js/main.b1f3e33a.js"
+    "static/js/main.b6f35761.js"
   ]
 }
