@@ -10,8 +10,9 @@ const Navbar = (props) => {
   const [id_para, setId_para] = useState(["staff", "access"])
 
   const changeUrl_func = (newUrl) => {
-    const aa = window.location.href = `NANEA_hair${newUrl}`;
-    console.log(aa)
+    console.log(newUrl)
+    window.location.href = newUrl;
+
 
   }
 
