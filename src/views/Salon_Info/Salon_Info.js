@@ -10,7 +10,7 @@ const Salon_Info = () => {
   const Access = useRef(null)
 
   useEffect(() => {
-    if (window.location.href === "/NANEA_hair_website/#/Salon_InfoAccess") {
+    if (window.location.href === "https://tom-riddle-sr.github.io/NANEA_hair_website/#/Salon_InfoAccess") {
       scroll2()
     }
   }, [])
