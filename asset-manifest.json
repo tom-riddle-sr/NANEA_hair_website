@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NANEA_hair_website/static/css/main.39ac89a5.css",
+    "main.js": "/NANEA_hair_website/static/js/main.99a413d3.js",
+    "index.html": "/NANEA_hair_website/index.html",
+    "main.39ac89a5.css.map": "/NANEA_hair_website/static/css/main.39ac89a5.css.map",
+    "main.99a413d3.js.map": "/NANEA_hair_website/static/js/main.99a413d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39ac89a5.css",
+    "static/js/main.99a413d3.js"
+  ]
+}
