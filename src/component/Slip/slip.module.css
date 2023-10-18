@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  width: fit-content;
+  margin-right: 2vw;
+  padding: 0px 4vw;
+}
+
+p {
+  margin-right: 0.5vw;
+  color: #107a7f;
+}
+
+
+
+.container:hover svg {
+  animation: moveSVG 0.3s linear 1;
+}
+
+
+@keyframes moveSVG {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, 10%);
+  }
+}
+
+.slip1 {
+  border-right: 1px solid gainsboro;
+}

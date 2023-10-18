@@ -1,0 +1,29 @@
+.swiper {
+  width: 100vw;
+  height: 30vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 80px;
+  /* background: #fff; */
+  color: rgb(169, 170, 169, 0.4);
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear;
+  /*之前是ease-out*/
+  -moz-transition-timing-function: linear;
+  -ms-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+  margin: 0 auto;
+}

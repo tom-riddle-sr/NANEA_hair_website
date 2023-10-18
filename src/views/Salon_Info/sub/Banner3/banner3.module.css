@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map {
+  margin: 5vh 0vw;
+}
+
+.p1 {
+  text-align: center;
+  line-height: 3vh;
+  margin-bottom: 5vh;
+}

@@ -1,0 +1,41 @@
+.container {
+  width: fit-content;
+}
+
+.p1 {
+  margin: 0;
+  font-size: 3vw;
+  color: #107a7f;
+}
+
+.span1 {
+  background-image: url("https://naneaahua-hair.com/wp/wp-content/themes/delaunay/assets/image/common/wave.png");
+  background-position: 0% 100%;
+  background-size: 500%;
+  background-repeat: no-repeat;
+  animation: waveAnimation 5s linear infinite;
+  /* 使用相同的动画名称作为关键帧 */
+}
+
+.span2 {
+  background-image: url("https://naneaahua-hair.com/wp/wp-content/themes/delaunay/assets/image/common/wave_white.png");
+  background-position: 0% 100%;
+  background-size: 500%;
+  background-repeat: no-repeat;
+  animation: waveAnimation 5s linear infinite;
+  /* 使用相同的动画名称作为关键帧 */
+}
+
+@keyframes waveAnimation {
+  0% {
+    background-position: 0% 100%;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.white {
+  color: white;
+}

@@ -1,0 +1,32 @@
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.overflow {
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+
+
+}
+
+.pic1 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: -25vh;
+
+}
+
+.h1 {
+  position: absolute;
+  top: 30vh;
+  z-index: 2;
+}

@@ -1,0 +1,23 @@
+.banner5 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  width: 100%;
+}
+
+.pic1 {
+  width: 40%;
+  margin-right: 4vw;
+}
+
+.pic2,
+.pic3 {
+  width: 20%;
+  margin-right: 4vw;
+  height: 40vh;
+}
+
+.pic3 {
+  margin-right: 0vw;
+}

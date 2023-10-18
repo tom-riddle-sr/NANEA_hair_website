@@ -1,0 +1,101 @@
+.banner3_2 {
+  width: 37vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.line1 {
+  color: #107a7f;
+  font-size: 3vw;
+}
+
+.line2 {
+  color: #107a7f;
+  line-height: 4vh;
+}
+
+.line3 {
+  color: #107a7f;
+  font-size: 1vw;
+  width: 10vw;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  width: 10vw;
+  position: relative;
+}
+
+.box::before {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  width: 10vw;
+  content: "";
+  border-bottom: 1px solid rgb(136, 138, 138, 0.4);
+  ;
+  position: absolute;
+  transition: width 0.01s ease;
+
+
+}
+
+.box:hover::after {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  width: 10vw;
+  content: "";
+  border-bottom: 1px solid #107a7f;
+  position: absolute;
+  transition: width 1s ease-in-out;
+}
+
+.box::after {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  width: 0vw;
+  content: "";
+  /* border-bottom: 6px solid #bda747; */
+  position: absolute;
+  transition: width 1s ease-in-out;
+}
+
+.text_align {
+  text-align: center;
+}
+
+.align_items {
+  align-items: center;
+}
+
+.svg1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+
+.svg1:hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transform: translateX(5%);
+}
+
+.text_color {
+  color: white;
+}

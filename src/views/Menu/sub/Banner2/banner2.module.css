@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0;
+
+}
+
+.p1 {
+  width: 30vw;
+  text-align: center;
+  line-height: 5vh;
+}

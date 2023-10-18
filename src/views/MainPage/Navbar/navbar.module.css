@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1vh 0vw 30vh 0vw;
+}
+
+.logo {
+  margin-top: 4vh;
+  width: 10%;
+}
+
+.navbox {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.title {
+  color: #107a7f;
+  font-size: 1vw;
+  margin-top: 2vh;
+  height: 5.5vh;
+  width: 5vw;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.title:hover {
+  background-image: url("https://naneaahua-hair.com/wp/wp-content/themes/delaunay/assets/image/common/wave.png");
+  background-position: 0% 100%;
+  background-size: 300%;
+  background-repeat: no-repeat;
+  animation: waveAnimation 5s linear infinite;
+  /* 添加动画效果 */
+}
+
+@keyframes waveAnimation {
+  0% {
+    background-position: 0% 100%;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.reservation {
+  border: 1px solid #107a7f;
+  border-radius: 20px;
+  padding: 0 1vw;
+  color: #107a7f;
+  margin-top: 4vh;
+}
+
+.reservation:hover {
+  background-color: #107a7f;
+  border-radius: 20px;
+  padding: 0 1vw;
+  color: white;
+}

@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 130vh;
+}
+
+.pic1 {
+  position: absolute;
+  width: 45vw;
+  left: 5vw;
+}
+
+.pic2 {
+  position: absolute;
+  width: 25vw;
+  right: 10vw;
+  top: 15vh;
+}
+
+.pic3 {
+  position: absolute;
+  width: 25vw;
+  left: 15vw;
+  top: 70vh;
+}
+
+.container2 {
+  position: absolute;
+  z-index: 100;
+  right: 15vw;
+  top: 90vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 25vw;
+  line-height: 3vh;
+
+
+}
+
+.p1 {
+  margin-top: 5vh;
+}

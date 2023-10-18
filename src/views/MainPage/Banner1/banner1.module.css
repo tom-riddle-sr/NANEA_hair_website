@@ -1,0 +1,43 @@
+.banner1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #107a7f;
+  margin-bottom: 5vh;
+}
+.banner1_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #107a7f;
+  height: 50%;
+  font-size: 4vw;
+  margin: 0px;
+  letter-spacing: 0.11vw;
+}
+.p1 {
+  margin: 0;
+}
+.banner1_2 {
+  display: flex;
+  justify-content: space-between;
+  color: #107a7f;
+  width: 28vw;
+  margin: 0px;
+  font-size: 0.5vw;
+}
+.addline1 {
+  background-image: url("https://naneaahua-hair.com/wp/wp-content/themes/delaunay/assets/image/common/wave.png");
+  background-position: 0% 100%;
+  background-size: 500%;
+  background-repeat: no-repeat;
+  animation: waveAnimation 8s linear infinite;
+}
+@keyframes waveAnimation {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}

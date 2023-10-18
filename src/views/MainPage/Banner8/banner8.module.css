@@ -1,0 +1,42 @@
+.banner8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.pic1 {
+  width: 100%;
+}
+.banner8_2_1 {
+  display: flex;
+  align-items: center;
+}
+.news {
+  background-color: rgba(16, 122, 127);
+  margin-right: 1vw;
+  padding: 0px 0.5vw;
+  border-radius: 10px;
+}
+.p1 {
+  margin-right: 1vw;
+}
+.p2 {
+  border-left: 1px solid rgba(16, 122, 127, 0.4);
+  padding-left: 1vw;
+}
+
+.banner8_2 {
+  background-color: #edefee;
+  width: 40%;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8vh 2vw;
+}
+.banner8_2_2 {
+  background-color: white;
+  width: 90%;
+  padding: 2vh 1vw;
+}

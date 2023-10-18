@@ -1,0 +1,9 @@
+.banner2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.pic1 {
+  width: 100%;
+}

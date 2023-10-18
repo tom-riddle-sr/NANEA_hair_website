@@ -1,0 +1,101 @@
+.container {
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 1px solid lightgray;
+  padding-top: 5vh;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 10vw;
+}
+
+.container2_5 {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  width: 55vw;
+  border-bottom: 1px dotted hsl(0, 0%, 83%);
+  padding: 3vh 0;
+
+
+}
+
+.container4 {
+  display: flex;
+  background-color: hsl(0, 0%, 83%, 0.3);
+  width: 50vw;
+  flex-wrap: wrap;
+}
+
+.container5 {
+  display: flex;
+  margin: 0vh 1vw;
+
+}
+
+.container6 {
+  display: flex;
+}
+
+.title {
+  font-size: 3vw;
+  margin: 0;
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  z-index: 2;
+  border-top: 3px solid hsl(183, 78%, 28%);
+  margin-top: -5vh;
+}
+
+.sub_title {
+  font-size: 1vw;
+  margin: 0;
+}
+
+.p1 {
+  margin: 0;
+  font-size: 2vw;
+  padding-left: 2vw;
+  border-left: 8px solid hsl(183, 78%, 28%, 0.6);
+  display: block;
+}
+
+.p2 {
+  width: 45vw;
+  font-size: 0.8vw;
+
+}
+
+.p3 {
+  font-size: 0.5vw;
+  margin-right: 1vw;
+  color: hsl(183, 78%, 28%, 0.6);
+}
+
+
+.line {
+  border-bottom: 2px solid hsl(0, 0%, 83%);
+  width: 10vw;
+  margin: 0 1vw 2.5vh 1vw;
+}

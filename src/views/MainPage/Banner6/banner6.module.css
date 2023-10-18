@@ -1,0 +1,17 @@
+.banner6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  color: white;
+}
+
+.box {
+  display: flex;
+}
+
+.banner6_1,
+.banner6_2 {
+  margin-right: 5vw;
+}

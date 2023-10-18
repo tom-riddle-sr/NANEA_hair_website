@@ -1,0 +1,12 @@
+#svg_2 {
+  animation: move 0.1s linear forwards;
+}
+
+@keyframes move {
+  0% {
+    stroke-dasharray: 0, 145px;
+  }
+  100% {
+    stroke-dasharray: 145px, 0;
+  }
+}

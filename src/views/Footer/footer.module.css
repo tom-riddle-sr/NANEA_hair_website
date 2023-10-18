@@ -1,0 +1,24 @@
+.banner10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.pic1 {
+  width: 100%;
+}
+
+.banner10_1 {
+  display: flex;
+  width: 15vw;
+  align-items: center;
+}
+
+
+
+.policy {
+  margin-left: 2vw;
+  color: white;
+}
