@@ -14,7 +14,7 @@ const About = () => {
   const staff = useRef(null)
 
   useEffect(() => {
-    if (window.location.href === "/AboutStaff") {
+    if (window.location.href === "/NANEA_hair_website/#/AboutStaff") {
       scroll3()
     }
   }, [])

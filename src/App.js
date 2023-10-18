@@ -27,7 +27,7 @@ function App() {
         setBgcolor("white");
       }
     };
-    if (window.location.href !== "/Menu")
+    if (window.location.href !== "/NANEA_hair_website/#/Menu")
       window.addEventListener("scroll", scroll);
 
     return () => {
